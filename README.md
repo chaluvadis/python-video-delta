@@ -9,7 +9,22 @@ A Python 3 script that compares two video files and detects visual differences u
 - [scikit-image](https://pypi.org/project/scikit-image/) ≥ 0.21
 - [numpy](https://pypi.org/project/numpy/) ≥ 1.24
 
-Install dependencies:
+## Environment Setup
+
+It is recommended to set up a virtual environment to isolate the project dependencies.
+
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS and Linux:
+source venv/bin/activate
+```
+
+Then install the dependencies:
 
 ```bash
 pip install -r requirements.txt
