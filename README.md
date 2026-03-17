@@ -4,7 +4,7 @@ A Python 3 script that compares two video files and detects visual differences u
 
 ## Requirements
 
-- Python 3.12 or higher
+- Python 3.9 or higher
 - [opencv-python](https://pypi.org/project/opencv-python/) ≥ 4.8
 - [scikit-image](https://pypi.org/project/scikit-image/) ≥ 0.21
 - [numpy](https://pypi.org/project/numpy/) ≥ 1.24
